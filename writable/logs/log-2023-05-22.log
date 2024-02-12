@@ -1,0 +1,275 @@
+CRITICAL - 2023-05-22 13:20:43 --> view(): Argument #2 ($data) must be of type array, SimpleXMLElement given, called in /srv/board_games/app/Controllers/Home.php on line 22
+in SYSTEMPATH/Common.php on line 1163.
+ 1 APPPATH/Controllers/Home.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:21:06 --> view(): Argument #2 ($data) must be of type array, SimpleXMLElement given, called in /srv/board_games/app/Controllers/Home.php on line 22
+in SYSTEMPATH/Common.php on line 1163.
+ 1 APPPATH/Controllers/Home.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:21:09 --> view(): Argument #2 ($data) must be of type array, SimpleXMLElement given, called in /srv/board_games/app/Controllers/Home.php on line 22
+in SYSTEMPATH/Common.php on line 1163.
+ 1 APPPATH/Controllers/Home.php(22): view()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:22:39 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:23:14 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:23:17 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:26 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:27 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:27 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:27 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:28 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:58 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:24:59 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:25:00 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:25:00 --> simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found
+in APPPATH/Controllers/Home.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(17): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:28:36 --> Undefined array key "name"
+in APPPATH/Controllers/Home.php on line 22.
+ 1 APPPATH/Controllers/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:30:57 --> Undefined array key "value"
+in APPPATH/Controllers/Home.php on line 22.
+ 1 APPPATH/Controllers/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:32:04 --> Undefined array key "value"
+in APPPATH/Controllers/Home.php on line 22.
+ 1 APPPATH/Controllers/Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:32:17 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 13:32:29 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 14:32:13 --> Array to string conversion
+in APPPATH/Controllers/Home.php on line 62.
+ 1 APPPATH/Controllers/Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->add()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 14:47:55 --> syntax error, unexpected variable "$publishers", expecting "," or ";"
+in APPPATH/Controllers/Home.php on line 86.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 14:49:10 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH/Controllers/Home.php on line 86.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 14:49:14 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH/Controllers/Home.php on line 86.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:03:03 --> Undefined array key "item"
+in APPPATH/Controllers/Home.php on line 69.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->insert_game()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:04:09 --> Undefined array key "item"
+in APPPATH/Controllers/Home.php on line 69.
+ 1 APPPATH/Controllers/Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Home->insert_game()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:18:14 --> Call to undefined function App\Controllers\getGameData()
+in APPPATH/Controllers/Game.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:18:36 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/GameModel.php(27): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Game.php(20): App\Models\GameModel->insertGame()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:19:23 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/GameModel.php(27): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Game.php(20): App\Models\GameModel->insertGame()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:20:39 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/GameModel.php(27): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Game.php(20): App\Models\GameModel->insertGame()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:26:05 --> There is no data to insert.
+in SYSTEMPATH/BaseModel.php on line 1680.
+ 1 SYSTEMPATH/BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH/Model.php(729): CodeIgniter\BaseModel->insert()
+ 4 APPPATH/Models/GameModel.php(28): CodeIgniter\Model->insert()
+ 5 APPPATH/Controllers/Game.php(20): App\Models\GameModel->insertGame()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:31:48 --> Undefined array key "item"
+in APPPATH/Controllers/Game.php on line 41.
+ 1 APPPATH/Controllers/Game.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Game.php(16): App\Controllers\Game->getGameData()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:33:44 --> Undefined array key "item"
+in APPPATH/Controllers/Game.php on line 41.
+ 1 APPPATH/Controllers/Game.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Game.php(16): App\Controllers\Game->getGameData()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-22 15:40:22 --> Undefined variable $success
+in APPPATH/Views/add.php on line 17.
+ 1 APPPATH/Views/add.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/add.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Game.php(33): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

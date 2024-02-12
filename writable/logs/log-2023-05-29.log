@@ -1,0 +1,129 @@
+CRITICAL - 2023-05-29 11:57:03 --> Undefined variable $post
+in APPPATH/Models/UserModel.php on line 21.
+ 1 APPPATH/Models/UserModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(25): App\Models\UserModel->insertUser()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 12:39:05 --> Undefined constant "test"
+in APPPATH/Views/layouts/default.php on line 141.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(29): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->register()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 12:39:06 --> Undefined constant "test"
+in APPPATH/Views/layouts/default.php on line 141.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->join()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 12:41:00 --> Undefined variable $data
+in APPPATH/Views/layouts/default.php on line 142.
+ 1 APPPATH/Views/layouts/default.php(142): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/default.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/User.php(29): view()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->register()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 12:44:20 --> Undefined array key "username"
+in APPPATH/Models/UserModel.php on line 21.
+ 1 APPPATH/Models/UserModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(25): App\Models\UserModel->insertUser()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->register()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:20:52 --> Undefined variable $password
+in APPPATH/Views/join.php on line 45.
+ 1 APPPATH/Views/join.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/join.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->join()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:25:56 --> Undefined variable $username
+in APPPATH/Views/join.php on line 31.
+ 1 APPPATH/Views/join.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/join.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->join()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:27:09 --> Undefined variable $email
+in APPPATH/Views/join.php on line 37.
+ 1 APPPATH/Views/join.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/join.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(8): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->join()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:35:59 --> Undefined variable $errorUsername
+in APPPATH/Views/login.php on line 26.
+ 1 APPPATH/Views/login.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->login()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 14:38:45 --> Undefined variable $errorEmail
+in APPPATH/Views/login.php on line 26.
+ 1 APPPATH/Views/login.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1177): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/User.php(12): view()
+ 6 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->login()
+ 7 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 15:12:58 --> Undefined array key "email"
+in APPPATH/Models/UserModel.php on line 27.
+ 1 APPPATH/Models/UserModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(63): App\Models\UserModel->connect()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->sign()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 15:13:06 --> Undefined array key "email"
+in APPPATH/Models/UserModel.php on line 27.
+ 1 APPPATH/Models/UserModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(63): App\Models\UserModel->connect()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->sign()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-29 15:15:13 --> Undefined array key "email"
+in APPPATH/Models/UserModel.php on line 27.
+ 1 APPPATH/Models/UserModel.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/User.php(63): App\Models\UserModel->connect()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\User->sign()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

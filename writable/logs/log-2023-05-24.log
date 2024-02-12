@@ -1,0 +1,715 @@
+ERROR - 2023-05-24 11:56:11 --> mysqli_sql_exception: Illegal parameter data types varchar and row for operation '=' in /srv/board_games/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /srv/board_games/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /srv/board_games/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /srv/board_games/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /srv/board_games/system/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+#4 /srv/board_games/system/Model.php(839): CodeIgniter\Database\BaseBuilder->get()
+#5 /srv/board_games/app/Models/ArtistModel.php(20): CodeIgniter\Model->__call()
+#6 /srv/board_games/app/Controllers/Game.php(42): App\Models\ArtistModel->insertArtist()
+#7 /srv/board_games/system/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+#8 /srv/board_games/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /srv/board_games/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /srv/board_games/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-24 11:56:11 --> Illegal parameter data types varchar and row for operation '='
+in SYSTEMPATH/Database/BaseConnection.php on line 645.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(839): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH/Models/ArtistModel.php(20): CodeIgniter\Model->__call()
+ 4 APPPATH/Controllers/Game.php(42): App\Models\ArtistModel->insertArtist()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 13:46:23 --> Undefined array key "inbound"
+in APPPATH/Controllers/Game.php on line 132.
+ 1 APPPATH/Controllers/Game.php(132): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Game.php(21): App\Controllers\Game->getGameData()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Game->insert_game()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:03:52 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+		&lt;meta content='yes' name='apple-mobile-web-app-capable'&gt;
+	&lt;meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'&gt;
+
+			&lt;title&gt;Klaus Teuber | Board Game Designer | BoardGameGeek&lt;/title&gt;
+	
+		&lt;link rel=&quot;canonical&quot; href=&quot;https://boardgamegeek.com/boardgamedesigner/11/klaus-teuber&quot; /&gt;
+
+&lt;link rel=&quot;apple-touch-icon&quot; 	href=&quot;https://cf.geekdo-static.com/icons/touch-icon180.png&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; 		href=&quot;https://cf.geekdo-static.com/icons/favicon2.ico&quot; type=&quot;image/ico&quot; /&gt;
+&lt;link rel=&quot;icon&quot; 					href=&quot;https://cf.geekdo-static.com/icons/favicon2.ico&quot; type=&quot;image/ico&quot; /&gt;
+&lt;link rel=&quot;search&quot; 				href=&quot;/game-opensearch.xml&quot; type=&quot;application/opensearchdescription+xml&quot; title=&quot;BGG Game Search&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;BGG&quot;&gt;
+
+&lt;meta name=&quot;theme-color&quot; content=&quot;#2e2b47&quot;&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://api.geekdo.com&quot; /&gt;
+
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://cf.geekdo-images.com/QWkqyPbgvtukZ_rhOmxzUw__itemheader/img/rMbpK4DRG2SNy4klRDAzNFoFoI4=/800x450/filters:quality(30):strip_icc()/pic1314565.jpg&quot; media=&quot;(min-width: 768px)&quot;&gt;
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://cf.geekdo-images.com/aaHf7IToj25_xkI4W1fbtw__itemrep/img/iMhj_tizTgChxmJQ3i8TYR7X8qc=/fit-in/246x300/filters:strip_icc()/pic820225.jpg&quot;&gt;
+
+	&lt;meta name=&quot;title&quot; content=&quot;Klaus Teuber&quot;&gt;
+
+	&lt;meta property=&quot;og:image&quot; content=&quot;https://cf.geekdo-static.com/images/opengraph/bgg_opengraph.png&quot; /&gt;
+
+
+	&lt;meta name=&quot;description&quot; content=&quot;Klaus Teuber (June 25, 1952 - April 1, 2023) was a well-known German game designer.
+
+ Awards 
+
+
+     2003 Origins Awards Hall of Fame inductee.
+
+
+Spiel des Jahres
+&amp;amp;bull; 1988 Barbarossa
+&amp;amp;bull; 1990 Hoity Toity
+&amp;amp;bull; 1991 Wacky Wacky West
+&amp;amp;bull;    1995 CATAN
+
+Abridged List of Notable Games
+
+&amp;amp;bull;    1988 Barbarossa
+&amp;amp;bull;    1990 Hoity Toity
+&amp;amp;bull;    1991 Wacky Wacky West
+&amp;amp;bull;    1995 CATAN
+&amp;amp;bull;    1996 Catan Card Game
+&amp;amp;bull;    1997 Löwenherz
+&amp;amp;bull;    2003 Domaine
+&amp;amp;bull;    2003 Anno 1503
+&amp;amp;bull;    2005 Elasund: The First City
+&amp;amp;bull;    2007 Anno 1701: Das Brettspiel&quot;&gt;
+
+	&lt;meta name=&quot;keywords&quot; content=&quot;board game, boardgames, boardgame, board, games, game, hobby, boardgamegeek, geek, geekdo&quot;&gt;
+
+&lt;script&gt;window.AdSlots = window.AdSlots || {
+	cmd: [],
+	disableScripts: ['gpt'],
+	renderOnFirstLoad: false,
+	divCheck: false
+};&lt;/script&gt;
+
+
+						&lt;link rel='stylesheet' type='text/css' href='https://cf.geekdo-static.com/static/geekui_master2_646bbd4390654.css'&gt;
+			
+	&lt;base href=&quot;/&quot;&gt;
+
+	&lt;script src=&quot;https://kit.fontawesome.com/42d3f5a072.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+	var GEEK = GEEK || {};
+	GEEK.adBlock = [];
+	GEEK.adConfig = {&quot;blockleaderboard&quot;:false,&quot;blockskyscraper&quot;:false,&quot;noadsense&quot;:false};
+	GEEK.adSlots = {&quot;dfp-leaderboard&quot;:{&quot;name&quot;:&quot;boardgame_leaderboard_728x90&quot;},&quot;dfp-skyscraper&quot;:{&quot;name&quot;:&quot;boardgame_skyscraper_160x600&quot;},&quot;dfp-medrect&quot;:{&quot;name&quot;:&quot;boardgame_rectangle_300x250&quot;},&quot;dfp-repeater&quot;:{&quot;name&quot;:&quot;boardgame_home_repeater&quot;},&quot;dfp-medrect-reserved-home&quot;:{&quot;name&quot;:&quot;boardgame_reserved_home_300x250&quot;},&quot;dfp-leaderboard-lg&quot;:{&quot;name&quot;:&quot;boardgame_home_hero&quot;},&quot;dfp-home-sidekick&quot;:{&quot;name&quot;:&quot;boardgame_home_repeater&quot;},&quot;dfp-inline-post&quot;:{&quot;name&quot;:&quot;boardgame_inline_post&quot;}};
+	GEEK.legacyAds = [];
+	GEEK.googleTargets = null;
+	GEEK.userid = 0;
+	GEEK.domainname = 'boardgamegeek.com';
+	GEEK.domain = 'boardgame';
+	GEEK.geekitemPreload = {&quot;item&quot;:{&quot;itemdata&quot;:[{&quot;datatype&quot;:&quot;geekitem_fielddata&quot;,&quot;fieldname&quot;:&quot;name&quot;,&quot;title&quot;:&quot;Name&quot;,&quot;primaryname&quot;:true,&quot;required&quot;:true,&quot;unclickable&quot;:true,&quot;fullcredits&quot;:true,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;keyname&quot;:&quot;name&quot;},{&quot;datatype&quot;:&quot;geekitem_fielddata&quot;,&quot;fieldname&quot;:&quot;alternatename&quot;,&quot;title&quot;:&quot;Alternate Names&quot;,&quot;alternate&quot;:true,&quot;unclickable&quot;:true,&quot;fullcredits&quot;:true,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;keyname&quot;:&quot;alternatename&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamedesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;chain_index&quot;:[&quot;boardgamehonor&quot;],&quot;chain_title&quot;:&quot;Honors&quot;,&quot;title&quot;:&quot;Board Game Designer Credits&quot;,&quot;keyname&quot;:&quot;boardgamedesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamesolodesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Solo Designer Credits&quot;,&quot;keyname&quot;:&quot;boardgamesolodesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Artist Credits&quot;,&quot;keyname&quot;:&quot;boardgameartist&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamedeveloper&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Developer&quot;,&quot;keyname&quot;:&quot;boardgamedeveloper&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamegraphicdesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Graphic Designer&quot;,&quot;keyname&quot;:&quot;boardgamegraphicdesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamesculptor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Sculptor&quot;,&quot;keyname&quot;:&quot;boardgamesculptor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameeditor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Editor&quot;,&quot;keyname&quot;:&quot;boardgameeditor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameinsertdesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Insert Designer&quot;,&quot;keyname&quot;:&quot;boardgameinsertdesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamewriter&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Writer&quot;,&quot;keyname&quot;:&quot;boardgamewriter&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;lookup_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;linktype&quot;:&quot;boardgamedesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Accessory Design Credits&quot;,&quot;keyname&quot;:&quot;boardgameaccessorydesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;lookup_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Accessory Art Credits&quot;,&quot;keyname&quot;:&quot;boardgameaccessoryartist&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameissue&quot;,&quot;lookup_subtype&quot;:&quot;boardgameissue&quot;,&quot;linktype&quot;:&quot;boardgameauthor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;correctioncomment&quot;:&quot;For periodical authors only.&quot;,&quot;title&quot;:&quot;Board Game Issue Author Credits&quot;,&quot;keyname&quot;:&quot;boardgameissueauthor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameissue&quot;,&quot;lookup_subtype&quot;:&quot;boardgameissue&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;correctioncomment&quot;:&quot;For periodical artists only.&quot;,&quot;title&quot;:&quot;Board Game Issue Artist Credits&quot;,&quot;keyname&quot;:&quot;boardgameissueartist&quot;}],&quot;relatedlinktypes&quot;:[],&quot;classification_types&quot;:[],&quot;linkedforum_types&quot;:[{&quot;title&quot;:&quot;Board Game Forums&quot;,&quot;linkedforum_index&quot;:&quot;boardgames&quot;,&quot;linkdata_index&quot;:&quot;boardgamedesigner&quot;,&quot;required_subtype&quot;:null}],&quot;subtypename&quot;:&quot;Board Game Designer&quot;,&quot;honor_subtype&quot;:&quot;boardgamehonor&quot;,&quot;honor_linktype&quot;:&quot;boardgamehonor&quot;,&quot;credit_subtypes&quot;:[],&quot;show_geekbuddy_analysis&quot;:false,&quot;stats&quot;:{&quot;playmonth&quot;:&quot;2023-05&quot;,&quot;numplays&quot;:0,&quot;numplays_month&quot;:0,&quot;numfans&quot;:201},&quot;relatedcounts&quot;:{&quot;news&quot;:33,&quot;blogs&quot;:53,&quot;weblink&quot;:8,&quot;podcast&quot;:2},&quot;itemid&quot;:38593,&quot;objecttype&quot;:&quot;person&quot;,&quot;objectid&quot;:11,&quot;label&quot;:&quot;Board Game Designer&quot;,&quot;labelpl&quot;:&quot;Board Game Designers&quot;,&quot;shortlabel&quot;:&quot;Board Game Designer&quot;,&quot;shortlabelpl&quot;:&quot;Board Game Designers&quot;,&quot;type&quot;:&quot;people&quot;,&quot;id&quot;:&quot;11&quot;,&quot;href&quot;:&quot;\/boardgamedesigner\/11\/klaus-teuber&quot;,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;subtypes&quot;:[&quot;boardgamedesigner&quot;,&quot;boardgameartist&quot;,&quot;rpgdesigner&quot;,&quot;rpgproducer&quot;,&quot;boardgamesculptor&quot;,&quot;boardgamesolodesigner&quot;],&quot;versioninfo&quot;:{&quot;gamepageorderurl&quot;:null,&quot;shopifyitem&quot;:null},&quot;name&quot;:&quot;Klaus Teuber&quot;,&quot;alternatename&quot;:null,&quot;links&quot;:{&quot;boardgamedesigner&quot;:[{&quot;name&quot;:&quot;Catan: 25 Jahre Jubil\u00e4ums-Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;298278&quot;,&quot;primarylink&quot;:1,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/298278\/catan-25-jahre-jubilaums-edition&quot;},{&quot;name&quot;:&quot;Catan: 25th Anniversary Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;305668&quot;,&quot;primarylink&quot;:1,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/305668\/catan-25th-anniversary-edition&quot;},{&quot;name&quot;:&quot;\u00c4lpler-Stafette&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;18774&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/18774\/alpler-stafette&quot;},{&quot;name&quot;:&quot;Anno 1503&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;8166&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/8166\/anno-1503&quot;},{&quot;name&quot;:&quot;Anno 1503: Aristokraten und Piraten&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;10810&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/10810\/anno-1503-aristokraten-und-piraten&quot;},{&quot;name&quot;:&quot;Anno 1701: Das Brettspiel&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;31897&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/31897\/anno-1701-das-brettspiel&quot;}],&quot;boardgamesolodesigner&quot;:[],&quot;boardgameartist&quot;:[{&quot;name&quot;:&quot;Catan Card Game&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;278&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/278\/catan-card-game&quot;},{&quot;name&quot;:&quot;Catan Dice Game&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;27710&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/27710\/catan-dice-game&quot;},{&quot;name&quot;:&quot;Catan Junior&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;184842&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/184842\/catan-junior&quot;},{&quot;name&quot;:&quot;Catan: 5-6 Player Extension&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;2807&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/2807\/catan-5-6-player-extension&quot;},{&quot;name&quot;:&quot;Catan: Cities &amp; Knights&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;926&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/926\/catan-cities-knights&quot;},{&quot;name&quot;:&quot;Catan: Delmarva&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;73809&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/73809\/catan-delmarva&quot;}],&quot;boardgamedeveloper&quot;:[],&quot;boardgamegraphicdesigner&quot;:[],&quot;boardgamesculptor&quot;:[{&quot;name&quot;:&quot;CATAN: 3D Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;338697&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/338697\/catan-3d-edition&quot;},{&quot;name&quot;:&quot;CATAN: 3D Expansions \u2013 Seafarers + Cities &amp; Knights&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;358860&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/358860\/catan-3d-expansions-seafarers-cities-knights&quot;}],&quot;boardgameeditor&quot;:[],&quot;boardgameinsertdesigner&quot;:[],&quot;boardgamewriter&quot;:[],&quot;boardgameaccessorydesigner&quot;:[{&quot;name&quot;:&quot;Die Siedler von Catan: Der Catanische Rat&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;151252&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgameaccessory\/151252\/die-siedler-von-catan-der-catanische-rat&quot;}],&quot;boardgameaccessoryartist&quot;:[],&quot;boardgameissueauthor&quot;:[],&quot;boardgameissueartist&quot;:[]},&quot;linkcounts&quot;:{&quot;boardgamedesigner&quot;:222,&quot;boardgamesolodesigner&quot;:0,&quot;boardgameartist&quot;:11,&quot;boardgamedeveloper&quot;:0,&quot;boardgamegraphicdesigner&quot;:0,&quot;boardgamesculptor&quot;:2,&quot;boardgameeditor&quot;:0,&quot;boardgameinsertdesigner&quot;:0,&quot;boardgamewriter&quot;:0,&quot;boardgameaccessorydesigner&quot;:1,&quot;boardgameaccessoryartist&quot;:0,&quot;boardgameissueauthor&quot;:0,&quot;boardgameissueartist&quot;:0},&quot;secondarynamescount&quot;:0,&quot;alternatenamescount&quot;:0,&quot;primaryname&quot;:{&quot;nameid&quot;:&quot;48797&quot;,&quot;name&quot;:&quot;Klaus Teuber&quot;,&quot;sortindex&quot;:&quot;7&quot;,&quot;primaryname&quot;:&quot;1&quot;,&quot;translit&quot;:&quot;Klaus Teuber&quot;},&quot;alternatenames&quot;:[],&quot;description&quot;:&quot;&lt;p&gt;&lt;strong&gt;Klaus Teuber&lt;\/strong&gt; (June 25, 1952 - April 1, 2023) was a well-known German game designer.&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt; &lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Awards#\&quot;&gt;Awards&lt;\/a&gt; &lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;ul&gt;\n    &lt;li&gt; 2003 &lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Origins_Awards#\&quot;&gt;Origins Awards&lt;\/a&gt; &lt;em&gt;Hall of Fame&lt;\/em&gt; inductee.&lt;\/li&gt;\n&lt;\/ul&gt;\n\n&lt;p&gt;&lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Spiel_des_Jahres#\&quot;&gt;Spiel des Jahres&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull; 1988 Barbarossa&lt;br \/&gt;\n&amp;bull; 1990 Hoity Toity&lt;br \/&gt;\n&amp;bull; 1991 Wacky Wacky West&lt;br \/&gt;\n&amp;bull;    1995 &lt;a  href=\&quot;\/boardgame\/13\/catan\&quot;   &gt;CATAN&lt;\/a&gt;&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Abridged List of Notable Games&lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;p&gt;&amp;bull;    1988 &lt;a  href=\&quot;\/boardgame\/550\/barbarossa\&quot;   &gt;Barbarossa&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1990 &lt;a  href=\&quot;\/boardgame\/120\/hoity-toity\&quot;   &gt;Hoity Toity&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1991 &lt;a  href=\&quot;\/boardgame\/19\/wacky-wacky-west\&quot;   &gt;Wacky Wacky West&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1995 &lt;a  href=\&quot;\/boardgame\/13\/catan\&quot;   &gt;CATAN&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1996 &lt;a  href=\&quot;\/boardgame\/278\/catan-card-game\&quot;   &gt;Catan Card Game&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1997 &lt;a  href=\&quot;\/boardgame\/66\/lowenherz\&quot;   &gt;L\u00f6wenherz&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2003 &lt;a  href=\&quot;\/boardgame\/5737\/domaine\&quot;   &gt;Domaine&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2003 &lt;a  href=\&quot;\/boardgame\/8166\/anno-1503\&quot;   &gt;Anno 1503&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2005 &lt;a  href=\&quot;\/boardgame\/19526\/elasund-first-city\&quot;   &gt;Elasund: The First City&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2007 &lt;a  href=\&quot;\/boardgame\/31897\/anno-1701-das-brettspiel\&quot;   &gt;Anno 1701: Das Brettspiel&lt;\/a&gt;&lt;\/p&gt;\n\n&quot;,&quot;wiki&quot;:&quot;&lt;span class='text-muted'&gt;This page does not exist. You can edit this page to create it.&lt;\/span&gt;&quot;,&quot;website&quot;:{&quot;url&quot;:&quot;http:\/\/www.klausteuber.de&quot;,&quot;title&quot;:&quot;Klaus Teuber&quot;},&quot;imageid&quot;:&quot;820225&quot;,&quot;images&quot;:{&quot;thumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__thumb\/img\/_3SMYgrDJFN64XLoi1DrW-4qx7w=\/fit-in\/200x150\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;micro&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__micro\/img\/x3OLMgdQ1sa4zB_C5KMkjuYEaJ4=\/fit-in\/64x64\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;square&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square\/img\/xJ7kMRE-kZV1D1s59d0lGTD6qHI=\/75x75\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;squarefit&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__squarefit\/img\/M61p0c30ShMw-bqxBxjQoQzWShU=\/fit-in\/75x75\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;tallthumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__tallthumb\/img\/tvifgbtFxt0MaShvoCskxN4rY0Y=\/fit-in\/75x125\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;previewthumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__previewthumb\/img\/kuSXmVCivLuvEAwiv77yT59rUsg=\/fit-in\/300x320\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;square200&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square200\/img\/SWrFGVrvO973DKEq1V5n3iPkGSs=\/200x200\/filters:strip_icc()\/pic820225.jpg&quot;},&quot;imagepagehref&quot;:&quot;\/image\/820225\/klaus-teuber&quot;,&quot;imageurl&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__itemrep\/img\/iMhj_tizTgChxmJQ3i8TYR7X8qc=\/fit-in\/246x300\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;topimageurl&quot;:&quot;https:\/\/cf.geekdo-images.com\/QWkqyPbgvtukZ_rhOmxzUw__itemheader\/img\/rMbpK4DRG2SNy4klRDAzNFoFoI4=\/800x450\/filters:quality(30):strip_icc()\/pic1314565.jpg&quot;,&quot;imageSets&quot;:{&quot;square100&quot;:{&quot;src&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square100\/img\/1OqzHOsOvB60J5GwlHTj-LWgbxU=\/100x100\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;src@2x&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square100@2x\/img\/SWrFGVrvO973DKEq1V5n3iPkGSs=\/200x200\/filters:strip_icc()\/pic820225.jpg&quot;},&quot;mediacard&quot;:{&quot;src&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__mediacard\/img\/iZtHE0hnSd6Tfyn8cRUs0L8B87s=\/288x162\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;src@2x&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__mediacard@2x\/img\/h_62kMwOxR8L4iGtTpdh73HEt1Q=\/576x324\/filters:strip_icc()\/pic820225.jpg&quot;}},&quot;itemstate&quot;:&quot;approved&quot;,&quot;promoted_ad&quot;:null},&quot;media&quot;:{&quot;files&quot;:{&quot;numitems&quot;:&quot;0&quot;},&quot;images&quot;:{&quot;numitems&quot;:26},&quot;videos&quot;:{&quot;numitems&quot;:9}},&quot;videogalleries&quot;:{&quot;galleries&quot;:[{&quot;type&quot;:&quot;all&quot;,&quot;name&quot;:&quot;All&quot;},{&quot;type&quot;:&quot;review&quot;,&quot;name&quot;:&quot;Review&quot;},{&quot;type&quot;:&quot;session&quot;,&quot;name&quot;:&quot;Session&quot;},{&quot;type&quot;:&quot;instructional&quot;,&quot;name&quot;:&quot;Instructional&quot;},{&quot;type&quot;:&quot;interview&quot;,&quot;name&quot;:&quot;Interview&quot;},{&quot;type&quot;:&quot;unboxing&quot;,&quot;name&quot;:&quot;Unboxing&quot;},{&quot;type&quot;:&quot;humor&quot;,&quot;name&quot;:&quot;Humor&quot;},{&quot;type&quot;:&quot;other&quot;,&quot;name&quot;:&quot;Other&quot;}]}};
+	GEEK.geekitemSettings = {&quot;fluidlayout&quot;:false,&quot;absolutedates&quot;:false,&quot;fulldescriptions&quot;:false,&quot;overview_nohot&quot;:false,&quot;recentitems_showcount&quot;:5,&quot;modules&quot;:{&quot;boardgameperson&quot;:[{&quot;name&quot;:&quot;description&quot;,&quot;enabled&quot;:true}],&quot;boardgame&quot;:[{&quot;name&quot;:&quot;promotedvideos&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;media&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;description&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;awards&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;marketplace&quot;,&quot;adblock&quot;:&quot;blockbuyacopy&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;videos&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;reviews&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;recs&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;forums&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;files&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;wiki&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;moregame&quot;,&quot;enabled&quot;:true}]}};
+	GEEK.geekitemModules = [];
+	GEEK.geekGlobalSettings = {&quot;shutdown_file_ops&quot;:&quot;1&quot;,&quot;shutdown_storeimage_ops&quot;:&quot;0&quot;,&quot;shutdown_edit_avatar&quot;:&quot;0&quot;,&quot;shutdown_file_upload&quot;:&quot;0&quot;,&quot;shutdown_file_download&quot;:&quot;0&quot;,&quot;shutdown_image_upload&quot;:&quot;0&quot;};
+	GEEK.geekimageSettings = {&quot;galleries&quot;:{&quot;all&quot;:{&quot;name&quot;:&quot;all&quot;,&quot;prettyname&quot;:&quot;All&quot;,&quot;description&quot;:&quot;&quot;},&quot;game&quot;:{&quot;name&quot;:&quot;game&quot;,&quot;prettyname&quot;:&quot;Person&quot;,&quot;description&quot;:&quot;This gallery should contain pictures of the person on this entry.&quot;},&quot;creative&quot;:{&quot;name&quot;:&quot;creative&quot;,&quot;prettyname&quot;:&quot;Creative&quot;,&quot;description&quot;:&quot;This gallery should contain creative imges of or from this person.&quot;}}};
+	GEEK.legacy = 0;
+	GEEK.apiurlsPrefix = 'https://api.geekdo.com';
+
+	
+		
+		GEEK.apiurls = {
+		'root': '/api',
+		'amazon': '/api/amazon',
+		'files': '/api/files',
+		'geekitems': '/api/geekitems',
+		'images': '/api/images',
+		'threads': '/api/forums/threads',
+	 	'forums': '/api/forums',
+		'videos': '/api/videos',
+		'hotness': '/api/hotness',
+		'dynamicinfo': '/api/dynamicinfo',
+		'subtypeinfo': '/api/subtypeinfo',
+		'geekbay': '/api/geekbay',
+		'geekmarket': '/market/api/v1',
+	    'geekmarketapi': '/api/market',
+		'geeklists': '/api/geeklists',
+		'reviews': '/api/forumreviews',
+		'collections': '/api/collections',
+		'linkeditems': '/api/geekitem/linkeditems',
+		'subscriptions': '/api/subscriptions',
+	    'fans': '/api/fans',
+	    'geekpreviews': '/api/geekpreviews',
+	    'geekpreviewitems': '/api/geekpreviewitems',
+	   	'geekpreviewparentitems': '/api/geekpreviewparentitems',
+		'recs': '/api/geekitem/recs',
+	    'awards': '/api/geekawards',
+		'historicalrankgraph':  '/api/historicalrankgraph',
+		'blueprint_recipes': '/api/blueprints/recipes',
+		'affiliateads' : '/api/affiliateads',
+		'sleevesbycard': '/api/sleevesbycard',
+		'componentlistsbygame': '/api/componentlistsbygame',
+	};
+&lt;/script&gt;
+
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-104725-1&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('consent', 'default', {
+		'ad_storage': 'denied',
+		'analytics_storage': 'denied',
+		'personalization_storage': 'denied',
+		'wait_for_update': 3000
+		 });
+	gtag('config', 'UA-104725-1', {
+		'cookie_domain': 'boardgamegeek.com',
+		'send_page_view': false
+	});
+&lt;/script&gt;
+
+    						&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekangular17_master2_646bbd4f79e41.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekui_master2_646bbd4390654.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekitem_master2_646bbd437ef92.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekcollection_master2_646bbd4f73c62.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekoutputtemplates_master2_646bbd502ddfb.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekitemtemplates_master2_646bbd50391a4.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekcollectiontemplates_master2_646bbd506b504.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekuicommontemplates_master2_646bbd5036558.js'&gt;&lt;/script&gt;
+			&lt;script&gt;
+	window.geekCookieConsent.gtagReady.then(function() {
+		gtag('event', 'page_view');
+	});
+&lt;/script&gt;
+	
+&lt;/head&gt;
+
+&lt;body ng-controller=&quot;GeekOutput_LayoutCtrl as layoutctrl&quot;
+		class=&quot;domain-boardgame&quot;
+
+		ng-class=&quot;{ 'has-no-max-width' : layoutctrl.geekitemSettings.fluidlayout }&quot;&gt;
+
+
+&lt;div class='d-flex flex-column min-vh-100'&gt;
+        	
+&lt;div id=&quot;global-header-outer&quot; class='global-header-outer'
+	  ng-controller=&quot;NavCtrl as navctrl&quot;
+	  click-out=&quot;navctrl.closeMobileMenu()&quot;&gt;
+
+	&lt;geeknav-menu&gt;&lt;/geeknav-menu&gt;
+&lt;/div&gt;
+
+	 
+	
+	&lt;main class='global-body flex-grow-1'
+		  id=&quot;mainbody&quot;
+		  ng-class=&quot;{ 'has-overlay-sidebar': layoutctrl.showOverlaySidebar, 'has-hidden-fixed-sidebar': layoutctrl.localStorage.hideFixedSidebar }&quot;&gt;
+		
+		&lt;a id='mainbodytarget' tabindex=&quot;-1&quot;&gt;&lt;/a&gt;
+
+		&lt;!-- Home King Ad --&gt;
+		
+		&lt;div hide-ad-block=&quot;blockleaderboard&quot; class=&quot;item-hero-layout&quot;&gt;
+			&lt;div class=&quot;advertisement-leaderboard&quot;&gt;
+				&lt;div class='center-block' ng-dfp-ad=&quot;dfp-leaderboard&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class='global-body-content-container container-fluid'&gt;
+							&lt;geekoutput-sidebar deactivate-overlay-sidebar='layoutctrl.deactivateOverlaySidebar' show-overlay-sidebar='layoutctrl.showOverlaySidebar'&gt;&lt;/geekoutput-sidebar&gt;
+         
+			
+			&lt;div class='global-body-content pending'  ng-class=&quot;{'ready': layoutctrl.ready}&quot;&gt;
+		
+				&lt;a id='maincontenttarget' tabindex=&quot;-1&quot;&gt;&lt;/a&gt;
+			
+				 								&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/highstock.src.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/modules/accessibility.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/themes/sand-signika.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;geekitem linkshowcount=&quot;6&quot; subtype=&quot;boardgamedesigner&quot;&gt;&lt;/geekitem&gt;
+
+
+
+				&lt;div class='global-body-content-secondary'&gt;
+									&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/main&gt;
+			&lt;geekoutput-footer&gt;&lt;/geekoutput-footer&gt;
+	&lt;/div&gt;
+
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+&quot;
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:04:35 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+		&lt;meta content='yes' name='apple-mobile-web-app-capable'&gt;
+	&lt;meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'&gt;
+
+			&lt;title&gt;Klaus Teuber | Board Game Designer | BoardGameGeek&lt;/title&gt;
+	
+		&lt;link rel=&quot;canonical&quot; href=&quot;https://boardgamegeek.com/boardgamedesigner/11/klaus-teuber&quot; /&gt;
+
+&lt;link rel=&quot;apple-touch-icon&quot; 	href=&quot;https://cf.geekdo-static.com/icons/touch-icon180.png&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; 		href=&quot;https://cf.geekdo-static.com/icons/favicon2.ico&quot; type=&quot;image/ico&quot; /&gt;
+&lt;link rel=&quot;icon&quot; 					href=&quot;https://cf.geekdo-static.com/icons/favicon2.ico&quot; type=&quot;image/ico&quot; /&gt;
+&lt;link rel=&quot;search&quot; 				href=&quot;/game-opensearch.xml&quot; type=&quot;application/opensearchdescription+xml&quot; title=&quot;BGG Game Search&quot; /&gt;
+&lt;meta name=&quot;apple-mobile-web-app-title&quot; content=&quot;BGG&quot;&gt;
+
+&lt;meta name=&quot;theme-color&quot; content=&quot;#2e2b47&quot;&gt;
+&lt;link rel=&quot;preconnect&quot; href=&quot;https://api.geekdo.com&quot; /&gt;
+
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://cf.geekdo-images.com/QWkqyPbgvtukZ_rhOmxzUw__itemheader/img/rMbpK4DRG2SNy4klRDAzNFoFoI4=/800x450/filters:quality(30):strip_icc()/pic1314565.jpg&quot; media=&quot;(min-width: 768px)&quot;&gt;
+&lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;https://cf.geekdo-images.com/aaHf7IToj25_xkI4W1fbtw__itemrep/img/iMhj_tizTgChxmJQ3i8TYR7X8qc=/fit-in/246x300/filters:strip_icc()/pic820225.jpg&quot;&gt;
+
+	&lt;meta name=&quot;title&quot; content=&quot;Klaus Teuber&quot;&gt;
+
+	&lt;meta property=&quot;og:image&quot; content=&quot;https://cf.geekdo-static.com/images/opengraph/bgg_opengraph.png&quot; /&gt;
+
+
+	&lt;meta name=&quot;description&quot; content=&quot;Klaus Teuber (June 25, 1952 - April 1, 2023) was a well-known German game designer.
+
+ Awards 
+
+
+     2003 Origins Awards Hall of Fame inductee.
+
+
+Spiel des Jahres
+&amp;amp;bull; 1988 Barbarossa
+&amp;amp;bull; 1990 Hoity Toity
+&amp;amp;bull; 1991 Wacky Wacky West
+&amp;amp;bull;    1995 CATAN
+
+Abridged List of Notable Games
+
+&amp;amp;bull;    1988 Barbarossa
+&amp;amp;bull;    1990 Hoity Toity
+&amp;amp;bull;    1991 Wacky Wacky West
+&amp;amp;bull;    1995 CATAN
+&amp;amp;bull;    1996 Catan Card Game
+&amp;amp;bull;    1997 Löwenherz
+&amp;amp;bull;    2003 Domaine
+&amp;amp;bull;    2003 Anno 1503
+&amp;amp;bull;    2005 Elasund: The First City
+&amp;amp;bull;    2007 Anno 1701: Das Brettspiel&quot;&gt;
+
+	&lt;meta name=&quot;keywords&quot; content=&quot;board game, boardgames, boardgame, board, games, game, hobby, boardgamegeek, geek, geekdo&quot;&gt;
+
+&lt;script&gt;window.AdSlots = window.AdSlots || {
+	cmd: [],
+	disableScripts: ['gpt'],
+	renderOnFirstLoad: false,
+	divCheck: false
+};&lt;/script&gt;
+
+
+						&lt;link rel='stylesheet' type='text/css' href='https://cf.geekdo-static.com/static/geekui_master2_646bbd4390654.css'&gt;
+			
+	&lt;base href=&quot;/&quot;&gt;
+
+	&lt;script src=&quot;https://kit.fontawesome.com/42d3f5a072.js&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+	var GEEK = GEEK || {};
+	GEEK.adBlock = [];
+	GEEK.adConfig = {&quot;blockleaderboard&quot;:false,&quot;blockskyscraper&quot;:false,&quot;noadsense&quot;:false};
+	GEEK.adSlots = {&quot;dfp-leaderboard&quot;:{&quot;name&quot;:&quot;boardgame_leaderboard_728x90&quot;},&quot;dfp-skyscraper&quot;:{&quot;name&quot;:&quot;boardgame_skyscraper_160x600&quot;},&quot;dfp-medrect&quot;:{&quot;name&quot;:&quot;boardgame_rectangle_300x250&quot;},&quot;dfp-repeater&quot;:{&quot;name&quot;:&quot;boardgame_home_repeater&quot;},&quot;dfp-medrect-reserved-home&quot;:{&quot;name&quot;:&quot;boardgame_reserved_home_300x250&quot;},&quot;dfp-leaderboard-lg&quot;:{&quot;name&quot;:&quot;boardgame_home_hero&quot;},&quot;dfp-home-sidekick&quot;:{&quot;name&quot;:&quot;boardgame_home_repeater&quot;},&quot;dfp-inline-post&quot;:{&quot;name&quot;:&quot;boardgame_inline_post&quot;}};
+	GEEK.legacyAds = [];
+	GEEK.googleTargets = null;
+	GEEK.userid = 0;
+	GEEK.domainname = 'boardgamegeek.com';
+	GEEK.domain = 'boardgame';
+	GEEK.geekitemPreload = {&quot;item&quot;:{&quot;itemdata&quot;:[{&quot;datatype&quot;:&quot;geekitem_fielddata&quot;,&quot;fieldname&quot;:&quot;name&quot;,&quot;title&quot;:&quot;Name&quot;,&quot;primaryname&quot;:true,&quot;required&quot;:true,&quot;unclickable&quot;:true,&quot;fullcredits&quot;:true,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;keyname&quot;:&quot;name&quot;},{&quot;datatype&quot;:&quot;geekitem_fielddata&quot;,&quot;fieldname&quot;:&quot;alternatename&quot;,&quot;title&quot;:&quot;Alternate Names&quot;,&quot;alternate&quot;:true,&quot;unclickable&quot;:true,&quot;fullcredits&quot;:true,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;keyname&quot;:&quot;alternatename&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamedesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;chain_index&quot;:[&quot;boardgamehonor&quot;],&quot;chain_title&quot;:&quot;Honors&quot;,&quot;title&quot;:&quot;Board Game Designer Credits&quot;,&quot;keyname&quot;:&quot;boardgamedesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamesolodesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Solo Designer Credits&quot;,&quot;keyname&quot;:&quot;boardgamesolodesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Artist Credits&quot;,&quot;keyname&quot;:&quot;boardgameartist&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamedeveloper&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Developer&quot;,&quot;keyname&quot;:&quot;boardgamedeveloper&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamegraphicdesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Graphic Designer&quot;,&quot;keyname&quot;:&quot;boardgamegraphicdesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamesculptor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Sculptor&quot;,&quot;keyname&quot;:&quot;boardgamesculptor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameeditor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Editor&quot;,&quot;keyname&quot;:&quot;boardgameeditor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgameinsertdesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Insert Designer&quot;,&quot;keyname&quot;:&quot;boardgameinsertdesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgame&quot;,&quot;lookup_subtype&quot;:&quot;boardgame&quot;,&quot;linktype&quot;:&quot;boardgamewriter&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Writer&quot;,&quot;keyname&quot;:&quot;boardgamewriter&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;lookup_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;linktype&quot;:&quot;boardgamedesigner&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Accessory Design Credits&quot;,&quot;keyname&quot;:&quot;boardgameaccessorydesigner&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;lookup_subtype&quot;:&quot;boardgameaccessory&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;title&quot;:&quot;Board Game Accessory Art Credits&quot;,&quot;keyname&quot;:&quot;boardgameaccessoryartist&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameissue&quot;,&quot;lookup_subtype&quot;:&quot;boardgameissue&quot;,&quot;linktype&quot;:&quot;boardgameauthor&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;correctioncomment&quot;:&quot;For periodical authors only.&quot;,&quot;title&quot;:&quot;Board Game Issue Author Credits&quot;,&quot;keyname&quot;:&quot;boardgameissueauthor&quot;},{&quot;datatype&quot;:&quot;geekitem_linkdata&quot;,&quot;other_objecttype&quot;:&quot;thing&quot;,&quot;other_subtype&quot;:&quot;boardgameissue&quot;,&quot;lookup_subtype&quot;:&quot;boardgameissue&quot;,&quot;linktype&quot;:&quot;boardgameartist&quot;,&quot;self_prefix&quot;:&quot;dst&quot;,&quot;correctioncomment&quot;:&quot;For periodical artists only.&quot;,&quot;title&quot;:&quot;Board Game Issue Artist Credits&quot;,&quot;keyname&quot;:&quot;boardgameissueartist&quot;}],&quot;relatedlinktypes&quot;:[],&quot;classification_types&quot;:[],&quot;linkedforum_types&quot;:[{&quot;title&quot;:&quot;Board Game Forums&quot;,&quot;linkedforum_index&quot;:&quot;boardgames&quot;,&quot;linkdata_index&quot;:&quot;boardgamedesigner&quot;,&quot;required_subtype&quot;:null}],&quot;subtypename&quot;:&quot;Board Game Designer&quot;,&quot;honor_subtype&quot;:&quot;boardgamehonor&quot;,&quot;honor_linktype&quot;:&quot;boardgamehonor&quot;,&quot;credit_subtypes&quot;:[],&quot;show_geekbuddy_analysis&quot;:false,&quot;stats&quot;:{&quot;playmonth&quot;:&quot;2023-05&quot;,&quot;numplays&quot;:0,&quot;numplays_month&quot;:0,&quot;numfans&quot;:201},&quot;relatedcounts&quot;:{&quot;news&quot;:33,&quot;blogs&quot;:53,&quot;weblink&quot;:8,&quot;podcast&quot;:2},&quot;itemid&quot;:38593,&quot;objecttype&quot;:&quot;person&quot;,&quot;objectid&quot;:11,&quot;label&quot;:&quot;Board Game Designer&quot;,&quot;labelpl&quot;:&quot;Board Game Designers&quot;,&quot;shortlabel&quot;:&quot;Board Game Designer&quot;,&quot;shortlabelpl&quot;:&quot;Board Game Designers&quot;,&quot;type&quot;:&quot;people&quot;,&quot;id&quot;:&quot;11&quot;,&quot;href&quot;:&quot;\/boardgamedesigner\/11\/klaus-teuber&quot;,&quot;subtype&quot;:&quot;boardgamedesigner&quot;,&quot;subtypes&quot;:[&quot;boardgamedesigner&quot;,&quot;boardgameartist&quot;,&quot;rpgdesigner&quot;,&quot;rpgproducer&quot;,&quot;boardgamesculptor&quot;,&quot;boardgamesolodesigner&quot;],&quot;versioninfo&quot;:{&quot;gamepageorderurl&quot;:null,&quot;shopifyitem&quot;:null},&quot;name&quot;:&quot;Klaus Teuber&quot;,&quot;alternatename&quot;:null,&quot;links&quot;:{&quot;boardgamedesigner&quot;:[{&quot;name&quot;:&quot;Catan: 25 Jahre Jubil\u00e4ums-Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;298278&quot;,&quot;primarylink&quot;:1,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/298278\/catan-25-jahre-jubilaums-edition&quot;},{&quot;name&quot;:&quot;Catan: 25th Anniversary Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;305668&quot;,&quot;primarylink&quot;:1,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/305668\/catan-25th-anniversary-edition&quot;},{&quot;name&quot;:&quot;\u00c4lpler-Stafette&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;18774&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/18774\/alpler-stafette&quot;},{&quot;name&quot;:&quot;Anno 1503&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;8166&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/8166\/anno-1503&quot;},{&quot;name&quot;:&quot;Anno 1503: Aristokraten und Piraten&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;10810&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/10810\/anno-1503-aristokraten-und-piraten&quot;},{&quot;name&quot;:&quot;Anno 1701: Das Brettspiel&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;31897&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/31897\/anno-1701-das-brettspiel&quot;}],&quot;boardgamesolodesigner&quot;:[],&quot;boardgameartist&quot;:[{&quot;name&quot;:&quot;Catan Card Game&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;278&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/278\/catan-card-game&quot;},{&quot;name&quot;:&quot;Catan Dice Game&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;27710&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/27710\/catan-dice-game&quot;},{&quot;name&quot;:&quot;Catan Junior&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;184842&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/184842\/catan-junior&quot;},{&quot;name&quot;:&quot;Catan: 5-6 Player Extension&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;2807&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/2807\/catan-5-6-player-extension&quot;},{&quot;name&quot;:&quot;Catan: Cities &amp; Knights&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;926&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/926\/catan-cities-knights&quot;},{&quot;name&quot;:&quot;Catan: Delmarva&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;73809&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/73809\/catan-delmarva&quot;}],&quot;boardgamedeveloper&quot;:[],&quot;boardgamegraphicdesigner&quot;:[],&quot;boardgamesculptor&quot;:[{&quot;name&quot;:&quot;CATAN: 3D Edition&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;338697&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/338697\/catan-3d-edition&quot;},{&quot;name&quot;:&quot;CATAN: 3D Expansions \u2013 Seafarers + Cities &amp; Knights&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;358860&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgame\/358860\/catan-3d-expansions-seafarers-cities-knights&quot;}],&quot;boardgameeditor&quot;:[],&quot;boardgameinsertdesigner&quot;:[],&quot;boardgamewriter&quot;:[],&quot;boardgameaccessorydesigner&quot;:[{&quot;name&quot;:&quot;Die Siedler von Catan: Der Catanische Rat&quot;,&quot;objecttype&quot;:&quot;thing&quot;,&quot;objectid&quot;:&quot;151252&quot;,&quot;primarylink&quot;:0,&quot;itemstate&quot;:&quot;approved&quot;,&quot;href&quot;:&quot;\/boardgameaccessory\/151252\/die-siedler-von-catan-der-catanische-rat&quot;}],&quot;boardgameaccessoryartist&quot;:[],&quot;boardgameissueauthor&quot;:[],&quot;boardgameissueartist&quot;:[]},&quot;linkcounts&quot;:{&quot;boardgamedesigner&quot;:222,&quot;boardgamesolodesigner&quot;:0,&quot;boardgameartist&quot;:11,&quot;boardgamedeveloper&quot;:0,&quot;boardgamegraphicdesigner&quot;:0,&quot;boardgamesculptor&quot;:2,&quot;boardgameeditor&quot;:0,&quot;boardgameinsertdesigner&quot;:0,&quot;boardgamewriter&quot;:0,&quot;boardgameaccessorydesigner&quot;:1,&quot;boardgameaccessoryartist&quot;:0,&quot;boardgameissueauthor&quot;:0,&quot;boardgameissueartist&quot;:0},&quot;secondarynamescount&quot;:0,&quot;alternatenamescount&quot;:0,&quot;primaryname&quot;:{&quot;nameid&quot;:&quot;48797&quot;,&quot;name&quot;:&quot;Klaus Teuber&quot;,&quot;sortindex&quot;:&quot;7&quot;,&quot;primaryname&quot;:&quot;1&quot;,&quot;translit&quot;:&quot;Klaus Teuber&quot;},&quot;alternatenames&quot;:[],&quot;description&quot;:&quot;&lt;p&gt;&lt;strong&gt;Klaus Teuber&lt;\/strong&gt; (June 25, 1952 - April 1, 2023) was a well-known German game designer.&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt; &lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Awards#\&quot;&gt;Awards&lt;\/a&gt; &lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;ul&gt;\n    &lt;li&gt; 2003 &lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Origins_Awards#\&quot;&gt;Origins Awards&lt;\/a&gt; &lt;em&gt;Hall of Fame&lt;\/em&gt; inductee.&lt;\/li&gt;\n&lt;\/ul&gt;\n\n&lt;p&gt;&lt;a class=\&quot;\&quot; href=\&quot;\/wiki\/page\/Spiel_des_Jahres#\&quot;&gt;Spiel des Jahres&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull; 1988 Barbarossa&lt;br \/&gt;\n&amp;bull; 1990 Hoity Toity&lt;br \/&gt;\n&amp;bull; 1991 Wacky Wacky West&lt;br \/&gt;\n&amp;bull;    1995 &lt;a  href=\&quot;\/boardgame\/13\/catan\&quot;   &gt;CATAN&lt;\/a&gt;&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Abridged List of Notable Games&lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;p&gt;&amp;bull;    1988 &lt;a  href=\&quot;\/boardgame\/550\/barbarossa\&quot;   &gt;Barbarossa&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1990 &lt;a  href=\&quot;\/boardgame\/120\/hoity-toity\&quot;   &gt;Hoity Toity&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1991 &lt;a  href=\&quot;\/boardgame\/19\/wacky-wacky-west\&quot;   &gt;Wacky Wacky West&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1995 &lt;a  href=\&quot;\/boardgame\/13\/catan\&quot;   &gt;CATAN&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1996 &lt;a  href=\&quot;\/boardgame\/278\/catan-card-game\&quot;   &gt;Catan Card Game&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    1997 &lt;a  href=\&quot;\/boardgame\/66\/lowenherz\&quot;   &gt;L\u00f6wenherz&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2003 &lt;a  href=\&quot;\/boardgame\/5737\/domaine\&quot;   &gt;Domaine&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2003 &lt;a  href=\&quot;\/boardgame\/8166\/anno-1503\&quot;   &gt;Anno 1503&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2005 &lt;a  href=\&quot;\/boardgame\/19526\/elasund-first-city\&quot;   &gt;Elasund: The First City&lt;\/a&gt;&lt;br \/&gt;\n&amp;bull;    2007 &lt;a  href=\&quot;\/boardgame\/31897\/anno-1701-das-brettspiel\&quot;   &gt;Anno 1701: Das Brettspiel&lt;\/a&gt;&lt;\/p&gt;\n\n&quot;,&quot;wiki&quot;:&quot;&lt;span class='text-muted'&gt;This page does not exist. You can edit this page to create it.&lt;\/span&gt;&quot;,&quot;website&quot;:{&quot;url&quot;:&quot;http:\/\/www.klausteuber.de&quot;,&quot;title&quot;:&quot;Klaus Teuber&quot;},&quot;imageid&quot;:&quot;820225&quot;,&quot;images&quot;:{&quot;thumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__thumb\/img\/_3SMYgrDJFN64XLoi1DrW-4qx7w=\/fit-in\/200x150\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;micro&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__micro\/img\/x3OLMgdQ1sa4zB_C5KMkjuYEaJ4=\/fit-in\/64x64\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;square&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square\/img\/xJ7kMRE-kZV1D1s59d0lGTD6qHI=\/75x75\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;squarefit&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__squarefit\/img\/M61p0c30ShMw-bqxBxjQoQzWShU=\/fit-in\/75x75\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;tallthumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__tallthumb\/img\/tvifgbtFxt0MaShvoCskxN4rY0Y=\/fit-in\/75x125\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;previewthumb&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__previewthumb\/img\/kuSXmVCivLuvEAwiv77yT59rUsg=\/fit-in\/300x320\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;square200&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square200\/img\/SWrFGVrvO973DKEq1V5n3iPkGSs=\/200x200\/filters:strip_icc()\/pic820225.jpg&quot;},&quot;imagepagehref&quot;:&quot;\/image\/820225\/klaus-teuber&quot;,&quot;imageurl&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__itemrep\/img\/iMhj_tizTgChxmJQ3i8TYR7X8qc=\/fit-in\/246x300\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;topimageurl&quot;:&quot;https:\/\/cf.geekdo-images.com\/QWkqyPbgvtukZ_rhOmxzUw__itemheader\/img\/rMbpK4DRG2SNy4klRDAzNFoFoI4=\/800x450\/filters:quality(30):strip_icc()\/pic1314565.jpg&quot;,&quot;imageSets&quot;:{&quot;square100&quot;:{&quot;src&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square100\/img\/1OqzHOsOvB60J5GwlHTj-LWgbxU=\/100x100\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;src@2x&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__square100@2x\/img\/SWrFGVrvO973DKEq1V5n3iPkGSs=\/200x200\/filters:strip_icc()\/pic820225.jpg&quot;},&quot;mediacard&quot;:{&quot;src&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__mediacard\/img\/iZtHE0hnSd6Tfyn8cRUs0L8B87s=\/288x162\/filters:strip_icc()\/pic820225.jpg&quot;,&quot;src@2x&quot;:&quot;https:\/\/cf.geekdo-images.com\/aaHf7IToj25_xkI4W1fbtw__mediacard@2x\/img\/h_62kMwOxR8L4iGtTpdh73HEt1Q=\/576x324\/filters:strip_icc()\/pic820225.jpg&quot;}},&quot;itemstate&quot;:&quot;approved&quot;,&quot;promoted_ad&quot;:null},&quot;media&quot;:{&quot;files&quot;:{&quot;numitems&quot;:&quot;0&quot;},&quot;images&quot;:{&quot;numitems&quot;:26},&quot;videos&quot;:{&quot;numitems&quot;:9}},&quot;videogalleries&quot;:{&quot;galleries&quot;:[{&quot;type&quot;:&quot;all&quot;,&quot;name&quot;:&quot;All&quot;},{&quot;type&quot;:&quot;review&quot;,&quot;name&quot;:&quot;Review&quot;},{&quot;type&quot;:&quot;session&quot;,&quot;name&quot;:&quot;Session&quot;},{&quot;type&quot;:&quot;instructional&quot;,&quot;name&quot;:&quot;Instructional&quot;},{&quot;type&quot;:&quot;interview&quot;,&quot;name&quot;:&quot;Interview&quot;},{&quot;type&quot;:&quot;unboxing&quot;,&quot;name&quot;:&quot;Unboxing&quot;},{&quot;type&quot;:&quot;humor&quot;,&quot;name&quot;:&quot;Humor&quot;},{&quot;type&quot;:&quot;other&quot;,&quot;name&quot;:&quot;Other&quot;}]}};
+	GEEK.geekitemSettings = {&quot;fluidlayout&quot;:false,&quot;absolutedates&quot;:false,&quot;fulldescriptions&quot;:false,&quot;overview_nohot&quot;:false,&quot;recentitems_showcount&quot;:5,&quot;modules&quot;:{&quot;boardgameperson&quot;:[{&quot;name&quot;:&quot;description&quot;,&quot;enabled&quot;:true}],&quot;boardgame&quot;:[{&quot;name&quot;:&quot;promotedvideos&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;media&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;description&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;awards&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;marketplace&quot;,&quot;adblock&quot;:&quot;blockbuyacopy&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;videos&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;reviews&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;recs&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;forums&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;files&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;wiki&quot;,&quot;enabled&quot;:true},{&quot;name&quot;:&quot;moregame&quot;,&quot;enabled&quot;:true}]}};
+	GEEK.geekitemModules = [];
+	GEEK.geekGlobalSettings = {&quot;shutdown_file_ops&quot;:&quot;1&quot;,&quot;shutdown_storeimage_ops&quot;:&quot;0&quot;,&quot;shutdown_edit_avatar&quot;:&quot;0&quot;,&quot;shutdown_file_upload&quot;:&quot;0&quot;,&quot;shutdown_file_download&quot;:&quot;0&quot;,&quot;shutdown_image_upload&quot;:&quot;0&quot;};
+	GEEK.geekimageSettings = {&quot;galleries&quot;:{&quot;all&quot;:{&quot;name&quot;:&quot;all&quot;,&quot;prettyname&quot;:&quot;All&quot;,&quot;description&quot;:&quot;&quot;},&quot;game&quot;:{&quot;name&quot;:&quot;game&quot;,&quot;prettyname&quot;:&quot;Person&quot;,&quot;description&quot;:&quot;This gallery should contain pictures of the person on this entry.&quot;},&quot;creative&quot;:{&quot;name&quot;:&quot;creative&quot;,&quot;prettyname&quot;:&quot;Creative&quot;,&quot;description&quot;:&quot;This gallery should contain creative imges of or from this person.&quot;}}};
+	GEEK.legacy = 0;
+	GEEK.apiurlsPrefix = 'https://api.geekdo.com';
+
+	
+		
+		GEEK.apiurls = {
+		'root': '/api',
+		'amazon': '/api/amazon',
+		'files': '/api/files',
+		'geekitems': '/api/geekitems',
+		'images': '/api/images',
+		'threads': '/api/forums/threads',
+	 	'forums': '/api/forums',
+		'videos': '/api/videos',
+		'hotness': '/api/hotness',
+		'dynamicinfo': '/api/dynamicinfo',
+		'subtypeinfo': '/api/subtypeinfo',
+		'geekbay': '/api/geekbay',
+		'geekmarket': '/market/api/v1',
+	    'geekmarketapi': '/api/market',
+		'geeklists': '/api/geeklists',
+		'reviews': '/api/forumreviews',
+		'collections': '/api/collections',
+		'linkeditems': '/api/geekitem/linkeditems',
+		'subscriptions': '/api/subscriptions',
+	    'fans': '/api/fans',
+	    'geekpreviews': '/api/geekpreviews',
+	    'geekpreviewitems': '/api/geekpreviewitems',
+	   	'geekpreviewparentitems': '/api/geekpreviewparentitems',
+		'recs': '/api/geekitem/recs',
+	    'awards': '/api/geekawards',
+		'historicalrankgraph':  '/api/historicalrankgraph',
+		'blueprint_recipes': '/api/blueprints/recipes',
+		'affiliateads' : '/api/affiliateads',
+		'sleevesbycard': '/api/sleevesbycard',
+		'componentlistsbygame': '/api/componentlistsbygame',
+	};
+&lt;/script&gt;
+
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-104725-1&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('consent', 'default', {
+		'ad_storage': 'denied',
+		'analytics_storage': 'denied',
+		'personalization_storage': 'denied',
+		'wait_for_update': 3000
+		 });
+	gtag('config', 'UA-104725-1', {
+		'cookie_domain': 'boardgamegeek.com',
+		'send_page_view': false
+	});
+&lt;/script&gt;
+
+    						&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekangular17_master2_646bbd4f79e41.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekui_master2_646bbd4390654.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekitem_master2_646bbd437ef92.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekcollection_master2_646bbd4f73c62.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekoutputtemplates_master2_646bbd502ddfb.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekitemtemplates_master2_646bbd50391a4.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekcollectiontemplates_master2_646bbd506b504.js'&gt;&lt;/script&gt;
+					&lt;script type='text/javascript' src='https://cf.geekdo-static.com/static/geekuicommontemplates_master2_646bbd5036558.js'&gt;&lt;/script&gt;
+			&lt;script&gt;
+	window.geekCookieConsent.gtagReady.then(function() {
+		gtag('event', 'page_view');
+	});
+&lt;/script&gt;
+	
+&lt;/head&gt;
+
+&lt;body ng-controller=&quot;GeekOutput_LayoutCtrl as layoutctrl&quot;
+		class=&quot;domain-boardgame&quot;
+
+		ng-class=&quot;{ 'has-no-max-width' : layoutctrl.geekitemSettings.fluidlayout }&quot;&gt;
+
+
+&lt;div class='d-flex flex-column min-vh-100'&gt;
+        	
+&lt;div id=&quot;global-header-outer&quot; class='global-header-outer'
+	  ng-controller=&quot;NavCtrl as navctrl&quot;
+	  click-out=&quot;navctrl.closeMobileMenu()&quot;&gt;
+
+	&lt;geeknav-menu&gt;&lt;/geeknav-menu&gt;
+&lt;/div&gt;
+
+	 
+	
+	&lt;main class='global-body flex-grow-1'
+		  id=&quot;mainbody&quot;
+		  ng-class=&quot;{ 'has-overlay-sidebar': layoutctrl.showOverlaySidebar, 'has-hidden-fixed-sidebar': layoutctrl.localStorage.hideFixedSidebar }&quot;&gt;
+		
+		&lt;a id='mainbodytarget' tabindex=&quot;-1&quot;&gt;&lt;/a&gt;
+
+		&lt;!-- Home King Ad --&gt;
+		
+		&lt;div hide-ad-block=&quot;blockleaderboard&quot; class=&quot;item-hero-layout&quot;&gt;
+			&lt;div class=&quot;advertisement-leaderboard&quot;&gt;
+				&lt;div class='center-block' ng-dfp-ad=&quot;dfp-leaderboard&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class='global-body-content-container container-fluid'&gt;
+							&lt;geekoutput-sidebar deactivate-overlay-sidebar='layoutctrl.deactivateOverlaySidebar' show-overlay-sidebar='layoutctrl.showOverlaySidebar'&gt;&lt;/geekoutput-sidebar&gt;
+         
+			
+			&lt;div class='global-body-content pending'  ng-class=&quot;{'ready': layoutctrl.ready}&quot;&gt;
+		
+				&lt;a id='maincontenttarget' tabindex=&quot;-1&quot;&gt;&lt;/a&gt;
+			
+				 								&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/highstock.src.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/modules/accessibility.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/highcharts/8.2.2/themes/sand-signika.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;geekitem linkshowcount=&quot;6&quot; subtype=&quot;boardgamedesigner&quot;&gt;&lt;/geekitem&gt;
+
+
+
+				&lt;div class='global-body-content-secondary'&gt;
+									&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/main&gt;
+			&lt;geekoutput-footer&gt;&lt;/geekoutput-footer&gt;
+	&lt;/div&gt;
+
+
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+&quot;
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:05:14 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:07:34 --> Undefined variable $UurlRL
+in APPPATH/Controllers/Test.php on line 19.
+ 1 APPPATH/Controllers/Test.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:15:00 --> include(): https:// wrapper is disabled in the server configuration by allow_url_include=0
+in APPPATH/Controllers/Test.php on line 12.
+ 1 APPPATH/Controllers/Test.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(12): include()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:15:39 --> Call to undefined function App\Controllers\get_remote_data()
+in APPPATH/Controllers/Test.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 2 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:25:37 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:25:59 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:26:10 --> simplexml_load_file(): https://boardgamegeek.com/boardgame/13/catan:2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:26:26 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:27:35 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:27:40 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:28:50 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:29:32 --> simplexml_load_file(): https://boardgamegeek.com/boardgame/13/catan:2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:30:02 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:30:23 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:30:40 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:30:50 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:31:08 --> simplexml_load_file(): https://boardgamegeek.com/boardgame/13/catan:2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:31:13 --> simplexml_load_file(): https://boardgamegeek.com/boardgame/13/catan:2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:31:20 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:32:11 --> simplexml_load_file(): I/O warning : failed to load external entity &quot;&lt;!DOCTYPE html&gt;
+&lt;html ng-app=&quot;GeekApp&quot; lang=&quot;en-US&quot; ng-cloak&gt;
+&lt;head&gt;
+	&lt;meta charset='utf-8'&gt;
+	&lt;meta id=&quot;vp&quot; name=&quot;vie
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_file()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:35:13 --> simplexml_load_string(): Entity: line 2: parser error : Specification mandates value for attribute ng-cloak
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): simplexml_load_string()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:37:51 --> file_get_contents(https://somedomain.com/somesite/): Failed to open stream: HTTP request failed! HTTP/1.1 410 Gone
+
+in APPPATH/Controllers/Test.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Test.php(13): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 4 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:38:18 --> Undefined array key 1
+in APPPATH/Controllers/Test.php on line 15.
+ 1 APPPATH/Controllers/Test.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:38:44 --> Undefined array key 1
+in APPPATH/Controllers/Test.php on line 15.
+ 1 APPPATH/Controllers/Test.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 15:40:06 --> Undefined array key 1
+in APPPATH/Controllers/Test.php on line 15.
+ 1 APPPATH/Controllers/Test.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Test->getURLContent()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
